@@ -2,7 +2,11 @@
 
 This repository contains verification scripts and test data used to validate the encoding preservation fixes for Zed.
 
+<<<<<<< HEAD
 The primary goal is to ensure that files opened and saved using the patched version of Zed retain their exact byte sequence.
+=======
+The primary goal is to ensure that files opened and saved using the patched version of Zed retain their exact byte sequence, specifically focusing on BOM preservation and heuristic detection for BOM-less UTF-16.
+>>>>>>> 5f63a048300976a0ed91f4b7c27130c7f49eeecd
 
 ## 📂 Repository Structure
 
